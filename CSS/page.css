@@ -235,3 +235,33 @@
     font-size: 2rem;
     margin-bottom: 0;
   }
+@media screen and (max-width: 800px){
+    .mg-page{
+        display: block;
+        padding: 0 15px;
+        height: 80rem;
+    }
+    .mg-page__left{
+        margin-top: 2rem;
+        width: 100%;
+        padding-bottom: 3rem;
+    }
+    .mg-page__right{
+        width: 100%;
+        height: 100vh;
+    }
+    .mg-results{
+        background-color: white;
+    }
+    .mg-results__chart{
+        width: 50%;
+        height: 100vh;
+        display: block;
+    }
+    .info__label{
+        font-size: .8rem;
+    }
+    #myChart{
+        
+    }
+}
